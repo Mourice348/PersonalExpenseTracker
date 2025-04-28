@@ -1,5 +1,5 @@
-import AppNavigator from './navigation/AppNavigator';
 import { ExpenseProvider } from './contexts/ExpenseContext';
+import AppNavigator from './navigation/AppNavigator';
 
 export default function App() {
   return (
