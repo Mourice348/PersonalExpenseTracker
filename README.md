@@ -1,99 +1,142 @@
-# 📊 Personal Expense Tracker App
+📱 Personal Expense Tracker
 
-A beautiful and simple mobile app built with **React Native** and **Expo**, allowing users to easily track their daily expenses, manage their wallet balance, and visualize monthly spending summaries.
+A simple mobile app to track daily expenses, summarize monthly spending, and manage personal budgets easily.
+Built with React Native, Expo, and Firebase Authentication.
 
----
+⸻
 
-## 📱 App Overview
+🚀 Features
+	•	📋 Track daily expenses by category
+	•	📈 View monthly spending summary with a line chart
+	•	💸 Manage wallet balance
+	•	🔐 Secure login, signup, and logout using Firebase
+	•	📱 Bottom tab navigation for easy switching between screens
 
-**PersonalExpenseTracker** is designed for students and interns to:
-- Track **daily spending**
-- Categorize expenses (Food, Transport, Entertainment, Others)
-- View **total monthly expenses** with a breakdown
-- Maintain a **wallet balance** and automatically update it when expenses are added
-- Analyze spending trends through **charts and history**
+⸻
 
----
+🛠️ Tech Stack
+	•	React Native (Expo)
+	•	Firebase Authentication (Email/Password)
+	•	EAS Build (for APK generation)
+	•	React Navigation (Stack + Bottom Tabs)
+	•	Victory Native Charts (for data visualization)
 
-## ✨ Key Features
+⸻
 
-- **Wallet Balance Overview:**  
-  Instantly see how much money is left in your wallet.
+📂 Screens
+	•	Login Screen – Login with Name (as email) + User ID (as password)
+	•	Signup Screen – Create new account
+	•	Home Screen – Expense overview and logout option
+	•	Add Expense Screen – Add new expenses
+	•	Summary Screen – Monthly spending chart and history
 
-- **Expense Categorization:**  
-  Add expenses under categories like Food, Transport, Entertainment, and Others.
+⸻
 
-- **Dynamic Updating:**  
-  When you add an expense, the corresponding category and wallet balance are updated immediately.
+🔥 Installation
 
-- **Dropdown Category Selection:**  
-  Choose your expense category from a clean and easy-to-use dropdown menu.
+git clone https://github.com/Mourice348/PersonalExpenseTracker.git
+cd PersonalExpenseTracker
+npm install
+npx expo start
 
-- **Monthly Summary Screen:**  
-  View a pie chart or line chart showing total spending per month, along with a detailed history.
+Or Build APK:
 
-- **Modern User Interface:**  
-  Designed with a clean layout and a calming color palette:
-  - Primary Color: **Sky Blue (#00BFFF)**
-  - Secondary Color: **Dark Blue (#00274D)**
+eas build --platform android
 
----
 
-## 🛠️ Technologies Used
 
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [React Navigation](https://reactnavigation.org/)
-- [Context API](https://reactjs.org/docs/context.html) for State Management
-- [@react-native-picker/picker](https://github.com/react-native-picker/picker) for dropdowns
-- [Expo Vector Icons](https://docs.expo.dev/guides/icons/) for bottom tab icons
+⸻
 
----
-
-## 📂 Folder Structure
-PersonalExpenseTracker/
-│
-├── App.js
-├── package.json
-├── app.json
-├── navigation/
-│   └── AppNavigator.js
-├── context/
-│   └── ExpenseContext.js
-├── screens/
-│   ├── HomeScreen.js
-│   ├── AddExpenseScreen.js
-│   └── SummaryScreen.js
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
----
-
-📈 Future Improvements
-	•	Add Login/Signup functionality (with Firebase Authentication)
-	•	Add Google Calendar Sync for reminders
-	•	Introduce Expense Budget Goals
-	•	Add Dark Mode and Light Mode options
-	•	Add Backup/Restore Data using cloud services
-	•	Support multi-currency tracking
-
-👨‍💻 About the Developer
-	•	Name: Lin Htet Aung (Demo User for this app)
-	•	ID: 6631503065
-	•	University: Mae Fah Luang University
-	•	GitHub: Mourice348
+🧩 Firebase Setup
+	•	Firebase project created for Authentication
+	•	Connected using a firebase.js config file
+	•	Supports Email/Password login system
 
 ⸻
 
 📄 License
 
-This project is licensed under the MIT License.
+This project is for learning and academic purposes.
 
 ⸻
 
-📎 Useful Links
-	•	React Native Documentation
-	•	Expo Documentation
-	•	React Navigation Documentation
-	•	React Context API Guide
+🌟 Thank you for using PersonalExpenseTracker!
+
+⸻
+
+✅ Short ✅ Clear ✅ Professional
+
+⸻
+
+Would you like me to also generate a shorter “Project Summary” you can post inside your GitHub too if needed? (optional) 🎯
+Just tell me “yes summary too”! 📄🚀Of course! Here’s a simple, clean, rewritten README.md for your PersonalExpenseTracker app:
+
+⸻
+
+📱 Personal Expense Tracker
+
+A simple mobile app to track daily expenses, summarize monthly spending, and manage personal budgets easily.
+Built with React Native, Expo, and Firebase Authentication.
+
+⸻
+
+🚀 Features
+	•	📋 Track daily expenses by category
+	•	📈 View monthly spending summary with a line chart
+	•	💸 Manage wallet balance
+	•	🔐 Secure login, signup, and logout using Firebase
+	•	📱 Bottom tab navigation for easy switching between screens
+
+⸻
+
+🛠️ Tech Stack
+	•	React Native (Expo)
+	•	Firebase Authentication (Email/Password)
+	•	EAS Build (for APK generation)
+	•	React Navigation (Stack + Bottom Tabs)
+	•	Victory Native Charts (for data visualization)
+
+⸻
+
+📂 Screens
+	•	Login Screen – Login with Name (as email) + User ID (as password)
+	•	Signup Screen – Create new account
+	•	Home Screen – Expense overview and logout option
+	•	Add Expense Screen – Add new expenses
+	•	Summary Screen – Monthly spending chart and history
+
+⸻
+
+🔥 Installation
+
+git clone https://github.com/Mourice348/PersonalExpenseTracker.git
+cd PersonalExpenseTracker
+npm install
+npx expo start
+
+Or Build APK:
+
+eas build --platform android
+
+
+
+⸻
+
+🧩 Firebase Setup
+	•	Firebase project created for Authentication
+	•	Connected using a firebase.js config file
+	•	Supports Email/Password login system
+
+⸻
+
+📄 License
+
+This project is for learning and academic purposes.
+
+⸻
+
+🌟 Thank you for using PersonalExpenseTracker!
+
+⸻
+
+Simply Lovely
